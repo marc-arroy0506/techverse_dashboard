@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+  background-color: rgb(32, 32, 32);
+  color: whitesmoke;
+  font-family: roboto;
+  
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.loginWrapper{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+.loginWrapper form{
+  background-color: #494949;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border-radius: 20px;
+}
+.loginWrapper h2{
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+.loginWrapper label{
+  margin-right: 18%;
+  margin-bottom: 3px;
+}
+.loginWrapper input{
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.loginWrapper button{
+  width: 25%;
+  margin-top: 3%;
+  height: 2rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: 0.2s linear;
+}
+.loginWrapper button:hover{
+  cursor: pointer;
+  background-color: rgb(90, 90, 218);
+  color: white;
+}
+.chart{
+  width: 93%;
+  margin: auto;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 0.75rem;
+  border-color: rgb(190, 190, 252);
+  border-width: 2px;
+  margin-bottom: 5%;
+}
+h1{
+  font-weight: lighter;
+  margin-left: 2%;
+}
+
+.Header{
+  background-color: rgb(48, 48, 51);
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.time{
+  right: 0;
+  margin-left: 48%;
+
+}
+.logoutB button{
+  font-size: 1rem;
+  padding: none;
+  background: none;
+  margin-left: 3em;
+  color: whitesmoke;
+  border: none;
+  transition: 0.2s linear;
+  
+}
+.logoutB button:hover { 
+  color: rgb(90, 105, 126);
+  cursor: pointer;
+
+
+ }
+.connection-status{
+  margin-left: 3%;
+}
+.tableWrapper{
+  max-height: 60vh;
+  overflow-y: scroll;
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  padding: 0;
+  margin-bottom: 3%;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #757575;
+  padding: 20px;
+
+}
+.dataTable{
+
+  width: 100%;
+}
+.dataTable td, .datatable th {
+    text-align: center;
+    padding: 8px;
+}
+.tableWrapper::-webkit-scrollbar {
+  background-color: #494949;
+  width: 10px;
+  border-radius: 5px;
+}
+.tableWrapper::-webkit-scrollbar-thumb {
+  background-color: #498299;
+  border-radius: 4px;
+}
+.tableWrapper tr:nth-child(even) {
+  background-color: #2e2e2e;
+}
+.tableWrapper th{
+  font-size: 1.3rem;
+  color: rgb(182, 211, 250);
+  
+}
+
+.dashSwitch{
+  width: 100%;
+  margin-left: 1rem;
+
+}
+.dashSwitch ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+  
+}
+.dashSwitch ul li button{
+
+  background-color: rgb(80, 82, 180);
+  color: white;
+  border-style: none;
+
+  font-size: 1rem;
+  border-style:ridge;
+  border-color: rgb(180, 173, 219);
+  border-width: 1px;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 10px;
+  margin-right: 3px;
+  border: none;
+  outline: none;
+}
+.dashSwitch button:hover{
+  background-color: rgb(41, 41, 41);
+  cursor: pointer;
+}
+.chartSwitch ul li button{
+
+  background-color: rgb(56, 56, 56);
+  color: white;
+  border-style: none;
+  font-size: 1rem;
+  padding: 5px;
+  width: fit-content;
+  outline: none;
+  
+}
+
+.chartSwitch{
+  width: 95%;
+  left: 0;
+  overflow-x: scroll;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.chartSwitch::-webkit-scrollbar {
+  background-color: #494949;
+  height: 6px;
+  border-radius: 5px;
+}
+.chartSwitch::-webkit-scrollbar-thumb {
+  background-color: #498299;
+  border-radius: 4px;
+}
+.chartSwitch ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+  
+}
+.chartSwitch ul li button{
+
+  background-color: rgb(56, 56, 56);
+  color: white;
+  border-style: none;
+
+  font-size: 1rem;
+  border-style:ridge;
+  border-color: rgb(180, 173, 219);
+  border-width: 1px;
+  padding: 5px;
+  width: fit-content;
+}
+
+.chartSwitch button:hover{
+  background-color: rgb(67, 69, 148);
+  cursor: pointer;
+}

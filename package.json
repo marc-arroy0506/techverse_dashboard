@@ -1,0 +1,30 @@
+{
+  "name": "techverse",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "chart.js": "^4.2.1",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "papaparse": "^5.4.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv-to-table": "^0.0.1",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "js-cookies": "^1.0.4"
+  }
+}
